@@ -47,5 +47,5 @@ sudo cp -P cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
-# to fix "cannot find -lboost_python3", still doesn't compile
+*to fix "cannot find -lboost_python3",  still doesn't compile*
 sudo ln -s libboost_python-py35.so libboost_python3.so
